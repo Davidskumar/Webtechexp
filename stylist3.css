@@ -60,6 +60,7 @@ nav{
 .container2{
     background-color: #dddedf;
     margin: 0px 20px;
+
 }
 .container2 td{
     width:0%;
@@ -75,6 +76,7 @@ nav{
     background-position: 70%;
     margin: 0px 20px;
     border: 15px solid rgb(208, 220, 230);
+    
 }
 table{
     text-align: center;
@@ -86,11 +88,30 @@ table{
 }
 .container3 img:hover{
     border-radius: 0%;
+
+
+}
+.cont3{
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    left: 30px;
+
+}
+.cont3 img{
+    position: relative;
+    left: 50px;
+
 }
 #names{
+    position: relative;
     font-weight: bold;
     font-size: large;
     color:#51ac70;
+    display: inline-block;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 50px;
 }
 .container4{
     margin: 0px 20px;
@@ -102,13 +123,17 @@ body{
 .c1{
     position: relative;
     width:63% ;
+    display: inline;
+    padding-left: 60px;
+    padding-right: 60px;
+    left: 30px;
 
   } 
 .text {
     position: absolute;
     bottom: 4px;
-    right:0px;
-    left:0px;
+    right:10px;
+    left:10px;
     background-color: rgba(71, 71, 71, 0.6);
     border-inline-color: red;
     color: white;
