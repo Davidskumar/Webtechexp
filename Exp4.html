@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Experiment 4
+        </title>
+        <link rel="icon" href="icon.png"  type = "image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="https://www.logodesign.net/logo/line-art-house-roof-and-buildings-4485ld.png" alt="logo" style="width:100px ;height: 100px ";></a>
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Clients</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login/Sign Up</a>
+                  </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search Here">
+                <button class="btn btn-primary" type="button">Submit</button>
+              </form>
+            </div>          
+          </nav>
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                  
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXjhdXGw_NUS-Yrsmuxms49BXTjc-__MjzLw&usqp=CAU" alt="Los Angeles" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlVueXoEoDjXb-pycTnf6mq7ct60AccqRGfw&usqp=CAU" alt="Chicago" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRdo36rlZchDKjgDTjwqta0RO1qEKtFRWcQw&usqp=CAU" alt="New York" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-pvBIQd2H1Efy80r2-qS2QhVgWzQzJdJOgA&usqp=CAU" alt="New York" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUWFRgVFRUYGRgaGBgYGBwcGhgcHRoaGBgZGhgaHBwcIS4lHB4rIRkYJjgmKy8xNTU1GiQ7QDszPy40NTEBDAwMEA8QHhISHDQhISE0MTQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDE0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAQIDBQYAB//EAEgQAAIBAgMDCAYGCAUDBQEAAAECAAMRBCExBRJBBjJRYXGBkaETIkKxwdEUUmJysvAjQ3OCksLS4RUzorPxB1NjVIPD4vIk/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAhEQEBAQEAAQUAAwEAAAAAAAAAARECIQMSMUFREyJhcf/aAAwDAQACEQMRAD8AjtEtJSIlpFRkRpkhEawgRMZo+TmzrD0zjM8wdA+t38OqV+xNm+me7cxc26zwX59U1lV7dkx1fpZEVapAHa8mqNeQMJmRUbSIyVhGFZRGY0iSlYm7KI50kKxu7AQRZ1p0uoWdOiQFBiiJOgLedEnXgLEJnXjSYCkxhM4mNJgcTEvEJiXkVKjQug+cABhFJpKLek0PwusrKLSwwjZzIruXK+rRPW4/B8pjGm35cL+jpH7bDxX+0w7TfKU2dOnSosd2JuyW0600ISsdQwrO6ogzY27OknqEkVZudh7DWmm82TuM/sjgvxP9pirAdDDpSQImg1PEnix6zB6jXl9X2SToYBW2a44TOLqrKxpSGthSOET0MAE04no5YChHLh5RWmlGmlLgYWKcHApTSiGnLdsJIHw9oFYUjGSHNRMiajAEtOtCTTjDTlENp0eVjTKhIl4piQEJiGKY0wGmNMcY0yKQxIsQwEvJKbyOKszRZ4apLjZ+Zmew75y7wFSxEik5bL+gQ9FQDxR/lMC09A5Xi+Gv0Oh8mHxnn5M1EpLzok6aRfmnE9HNm9BH4K3gYM+yqZ9m3YSJ09rGs7gEVXDOCQMxYXz4XmkpbX+rU7j8mgNXYSEgh3XQZEe7SF1OS1UcyqrffX+mY65anQ5NruNQp7LiE09soecCO648s5mMVs3EUtaYNyACj2uTpkfnImqVEydKifeS/mt5PbZ9mxtExFJuK+4+BnPgVOmUyFPFqct5b9F90+BlhQrOOaWHYcpPP3Gly2zeiIMGRwgtHaDjXPtHyh1LaN9V8M48IVcPF9CJMuJU/m0eADoZcNVuMw72G4VBvncX+MZUwoljVptlbpgWI3xwMmCvqURBKlOF1XPRBKlSRQzpImWSu8hd5URuJA0mYyJhAZEjiJ27CmRpkgSL6OBCRG2hPoY5cOeiTTAdpDVR94btt3iL2PjY+6XCYJj7JhFPY1RtFPhM6uM99HO8G3iLCxFywY9Odrdwk4SaSnyac62HaRDKXJoe047heMpsZakktMKTlL9dj0E5zeJA98kU4ZdCp8W90SX7Nim5R3bBv1FD/rWeeEz0zlHjaZw1VVHs9FtGB+E8wYyz5T6LedI7zpvR6O2yqeq1nXt3SPNb+c4YGqOZiVPUQw/nPuhXoXtzT4GQupGo8p2xzIi4oHMIw6mz81Hvl4MZiBzqF/uke4EmUuHb1h2j3ia2o1hM0jL7W2rvEKyOhUo/rAgWUm+ZA6fIwvB8oqT6uPM9oNryDlDU49D0v/kk7Mj23gjXvzl3uGWZGUosGXD1NRTb+G/zg78nsOc1Up9xivuk6bNosoPo1Fx7N1/DaINkIOYzp91vneZUMNisvMrv2MFYeNr+cSv6WmpZ1puACSRvKbDubphX0KqObXb95Q3mTK/axxCrZijIQQxFwwGWdrW1tJ7YaIaqRzqDr1rZh5G/lBnx1Ee2UP2lZfM2liMXWHOoX61dT5SI7XpE7rKwPQyjyzzk9q6DG0G1Vww7QeI4yRdtEc5Qew/O8biqOHb1vozN9pae5rrmSp0v4wXCbKpVSdxqiDdBAJub77gizX+qI9v5TVgNo0G5w3e0fEXnNgKL8xxfqIPlrA6nJtxzKqn7ykean4QSrseuvsBh9lwfJgJPbTYKxGw3HNsez+8rq2z3XVTJKdTEIAR6RRYEXDEWPZcQmlt6oMm3W7Rn5fKMq6pXwr35xHVuj8njH+gM0VPaNF+egB6iP7R7YzDrooPaQPjAzq4NjwhFLZDnRD4SzfbyrzVUeJ9wEAxHKu2RqIv8P8xMip6WwHOoA7xC12ABmzATP1uUpOju33d8j/QtoFV2u50R2692342EYjYjBYZec6nvHwnfScMvNG9+6T77TDvja55qW+8yr+ENIWbENqyjvdv6ZBvG24i81LdpVfnBKvKU8NweLe6Yr6O/Gpb7qAfiLRyYB2yDVH7Db8AEltXI09Xb7n2z3KB75XYnb1uc5/eqW8s4LS5LVH/Vm323LeRJhKcjKg5qUx2f/mTVVz8pF9goezef8MEqcoax5u8OynbzYS3xHJzEoL7m8PskHy1lO62JBFiNQdYmHkFX2hiHBDekIOoLqAe0KfhKfG7Q9G24+6DYHnE5EkdHVNFuyj2rs9HrXYX9ReJHtN0TfiIr/wDGU6fJvlOhP+CU/qeZ+c6TYPWmxrjp/ijf8ScdPlEJkZE9ORzFUdoksN4DUeznr2y/qVv0luG5fzmWpL6yj7Q94mkRr1G6gFGfWPnM2EU3KFxmeHpaXH79+zWF+kpkpkdRaxLW08JX7ePq3/8AOn88I37bpyOQ1JPEcLRBocARuLa9gLZ6wm8rMLXawUWFi18rZA2AA7jI3qFa1/Hr9WTBbM1hcyl2ziVamxBuFUlhlmLrlmCP+IbVxGWfEH3GZ3GH9BV/Zt+JIzxo0gwSNmxZ/vMxH8N93yjiqoLKFXLgLeQkWz6gFPM8Wt3Z5SGrX3mK29Ur4HO8Yp2GqB3KsQ4sdVHAwfDbOpGo6lFtuq1hlYs9QG1tOaPCQIm443TcX101h2EqAVXuf1af7laKiQ7PRR6rOg+y7fEmR18PUCgpWJ9ZbB1VgfWHEWMix2MDqN3rJ6crW98IwT3pi59sDzEBmGeqKaEFCNxSAQwNrDiLyLF1A6+vTXW1zusL206ZLgKoKIPsIP8ASJBWT1SvXfwv84FdicCjCy3Q9K28LEETN4+lTpsQ+IUcDvVwniN4WmqW4nk3KDLE1/21T8Zii+fE4MZmrQb99HPleRnb+DT9YP3UqH3JMXWeA1WmfbF1v63KzCKL77t1Khv5kQjZO2aeJDNTVwFcId8KNVLXFmM8sqtNr/05F0qftR/tmSyLK2RWOpYdnNlElWnearZODVE3yM5mrFXh9h06aGpiGVVGZLEKo7b/ABj25S4GmLLVpZdDKfdH7SxpNxw6OEyOMwKFiQii/QBMNf8AWiq8t8MNKo/dVz7lk2z+UqVr7jnLpV17xvAXEytHBqNFHhL3ZuE6BCeGjw+NJ43md5eUEAp1AAHLWPSRkPj5Doly7pQTfqMFA06T1ATGbUx7YmpvsLIMkXoHT5nxPYF/CT7V9oPUw3r75ZFFgPWqIpuCeDEG2esPCQarTG/w5oy7zw6JvPAj+jD66fxrOgOJSjvG6C+V/VHROmBq/wDDX/7z/wATfOd9AqDSu/8AE39UIbE55RPpWYHG89eRy0ylhKm8o9O+oGp4nraXlHAVA7D6U+oF8sz13aV6Iyul9Cy2N+sS7Q/pHz9vpA4mZsi6zm1KNVSN6sXU1EAuAN1rtY69sMqU6wA//oXTioHRE243qL+3Tj9/wh9d8hnw+sOkdUknkPwmFxBBIxA1P6tT7RkeJoYkOf06k/s16O2HUsRuC1r33syehj0QWtir3Yixy6h7pcNRNSxNv85MgdaY+cqsY+IWk+8UZCjBrAggErmO+00Kt6l7gkrvWBva4y4ZSqx7XoVcv1bfiSLPB9m4THY4qAtKmRm2ZX2h9+MGMx4YH0NPhxH9cs8CSEB6hCaY9b1luLdMlhqlfF43nGhT6cmH9cbsra1au1RgiKypuMGLew9Q+ra9jmR3TQYmmoBtpu5ZzP8AJhwpreqDdn1v/wB6sOAMiiaLV7ZLT/if5QylVxCorBKbeuMg7gnPPVbdMZ9JAy3F8+H7sJw2JuyJYAXvkTrlNIj2dXcBfVTmp7R0sPswupUvkRbvv8IJgVFv3V9wk1ancHtygMtPIOUxtia/7V/xGet02PGefbe5H4ypiKr0zQKu7Ou8zhrMb5gIRfvkGGrPAqrzWVuQ2O+rRPY7/FBAq/IfH8KSH99fjCsnVeb3/pmL06n7Yf7cz1bkVj//AE9+x6X9c2v/AE82NWoK616ZRmqbwBKm43CL+qTxkGpGUu6OLpVUCVHdCPqu6Xv1oRcdRlc1A8BIzgah0Rj2KT8JnqSrKPq8m8O2Ydz/AO/UP88GfkthxzmbvrP/AFyA7Iqn9WfdGNsKr/279pX4mYvMalrquy9npzm3j0CpUY+TSBNo06V/otDcJ1dyx8FJOfbJDsWuNKZ7rfCQtsysNab/AMLfKTIu1XYhndt+o5duvQdgjCIY+FYagjtykDoRwmpjNMUSr2k+7UFtdwe9pbqJTbaYiotvqD8RlvwQJXpMTc34dHQIkf6Y9M6c/DXlq3a3CNRbkMcrcLSQbPPbnxhi4Jja+9oNBrPW4CiwLIPtIdOuWOjv9/4njAqOHsF3st1gRfK4v1wisybzNvrm17XHX1zNais27zUH/npdPQ/hD6jru5sRYcN09HSIFtN0ewVwbVEc63AG/c+7SM2hVG4d0ki1hr09cgb/AI0j1GRL3XS9gDvMevO0LpjfYAqBrncZd0xGzLjEb320PR7XTNy1dRqaa9rqfw3k56/VsWdPCBabboBJU5gce2UtaiwoVAb5o2v3kk9LbAGS1UJ+wjufMQbE7QupDekYbpX/ACgosSOk31Ai9TD21d4SkAi2toL9OkHxu0aaMAzoCdBvL53IAHbMymGDaUnPayDyAkWIUp+pA6zvnzDWkvR7WgfHoW9WopJyAU31yAyuL5yDZmzayGpdSoYsQRne9Wow5p6GBlfybJqV1FksoLmyJfLIZ2vqR4TX46vuU3f6qk+Aj3b5MVKOvtEk56I/nlaSUsUqupubKRe5QZdNiwnnWJxO6pY5kZzT8hjvl2LbwAAKlRYFjlbM3yDcOMk9Tbi3nFvQ21SRQGZL2A54OgtogMlXb1F2CA2LX3ciAe8/KFYnZeGYEtRTpyUA+IznnlNw9Zt6i24HIRk38hfLO5Hlwi9WXySb8PQQY4tKOvtEUlp2DMHdEuSLjevnpnpLVK6sMjNSypibeuYE+06O8FDgkm11BYDtYZC0yfKbbZdmpITuKd1yL3qMDZhl7AOVuJvwtKK6+rckZDqnLr1MuR159LZteuU1o2uaqnqBEmWrSHNUHtN55EjWuQ5tfg3VI/pTg+rUbvY28zM/yW/LX8X+vYTjSNAB2CRNjHPGeZYJ8Y/+W5I+teyj963kM4Rj8Zi6ABNdWztYFibnttlL7ozeK9BbEvE+kPPNl5V4ke2pyvmAPhJaHLTEEhQisSbAC5JPUBa8e7lPZ09Jp12MPpsQN5mAHSTaYrCbZxBXNEDdV7L95rkE9S367SDEtUc3quz9WijsAmsrLWYzlLQS6qTUboUXHeeEzW09sPVuFpU0HTuhn8eHdAyLZAWEjlk/QyihGpJub5/nKUvKH/MXP2B+JpfiZjlW9qifc/maXqeCB8unyiQP0vXOnPF16Q+3qY/Xt+4gHvdfdIztgNzUxD+Q8lb3yrfllhkySk57FRR77+UFxHLhxYphwAeaWZjextcAKL59c6XqfpOL+Lz6RVPMwrfvufOzLHpTxZ0p0E7fWPmGmQr8tMUeaUTsS5/1kiV1blBi352If90hPwATN9Tn/Wp6fX+PQqlDEi29VRbkX3UAt3i0fXsFK+m9KbEk7wJXoBschkfOeV1KzsfXdnyHOYt09N5c8jcUVrmmT6lRWy4BlsQfAMO+Tn1Jesw69OzlbYeoiO71CwRd1m3V3ibOBa3XfXhNPsbG4KqFemFUm9gwAa4JBAvqcjoZmcTSC1GU3CuGUkcAwIuOsXv3QDZvITF0yT9LpoGJJUBnQ3N8w26O+15u7Kxzlj1MIOiQY1AVtMOvKKrg91cQfUNgGG89O/QQfXp9gLCaHD8pKNRQxYAHRlIZT+8NO8CWdy/Pgz88rakABFZpClVSAVIIOhBBB7xFZ5tClyDvKbG1rjW3R2SHFYl6iNTcgqwsTax8R8orvIkMdTVjN4nklUbJaqFTxKsCO4Xv4iaHkngPoyOjuu8z3BvYFQqhdeveyhJcys2jtSgn+ZVRT0Xu38IufKYvHM8ktvhpsW9kYj6pPlPLcHt+sqrTp9LbpugHrEtzmPWYXieVtNb+iR2+0TuL46+UzG2NrPWffIQHQ7u9nbS5JIPgJx7svxXTni/bStgMXVZWquoFwbbxc5G/DLzl1haLJ7bMfAd3R4zzjDYt0zR3TrUm3gMobj9tYlgFSswGd7AFhp7QAPHjHPX1F64ybV3tXZ9Kkd7fCLbQsfIHWO2RsdcRTFRK9lJIX1Cb7pKk6i2YMw7YVmJZ23/vHPw0756RyKTdwiDrf/ceW8+fMT3+PFS7J2AyVld3pug3jxvcqQMiLa24zSPhEfnIjdqqYITFCyySMXq0NtaiyIUpDduVVVXIZsNLaDXxlLW2eiWbEtvk5hF3rE9uRP5ymkuw0YzI7eru1ZgxuFtbvAMz1yvPSp2sqB1ZF3A1xujeOmlrm9ze1uqafYOxwgJbnaOevjTU8APaPE5aDPP0wd9H/wC3cr+0awTw9Zv3ZqKG0QihLZAWm+OZ8nXdzFwqrawytoJG9KVlTaIOmUdS2mRk2YnRzTvRkDJDUrK4yMiqCUC2mT5YNaohP1P5jNewmR5YIDUS/wBT+YzPXwsZn6U/BcuF50K3Z05tB985x28dxM8rNbXL12HE9UgJyMlRvVVfqgjxZm+Mx9O/2W/bJAQOHnIi0bvTnjaQuLnhkPjHYJ6iOroXIVw+6C27kRcboyztaCls+4fGR1MM7KTZiuuZO4D35TXM8sdXw9K2vYhXGYNiD1HSXdLFoaKFnRCVt6zW5uR6zlbxmI5M7RWphxRZhv0xu2BBunskW1sLDu65Z00D07EAmmd7MA+qcm/lPcZ6bNjy/AnaNXCupRnesDkVRLL2Fmv8JSDZdJQRQpGgfrCo7MTw3rtuHssRLJ66LkTw0XM27tBKbH8oqKZby5eyp3m793IeMTmQ2q2lt3EUHKsSrD2kyDDgSh9Vpq9lcs98euA4+smTDtRvgZ57tja3p7bqbtr5nW3dBKbnLW4tnJmfFa3fmPX8Rypwyi++zEi+6qNvd9wAPGUuL5aOf8qlbrc38hYeZmbxLNvZZdkGN+M5X1uq7T05FpjNuV6nPqufsp6i9hta8q94cFA7rnxMQCO3Zytt+W5JDTc6n4y45O7LWuzhmZd1N4EZm97acZUW6JpeRj7rv9wfiE1xN6ms99Wc+DcVyTqjNCr/AOhj3HLzkWFw2IovnTf1lIzUMNRxFxNoK3QR1yRXJ6O0T0T05LscL6nVmVjn2Y75sm52DP5CW+ycYuHpik6PZSx3sjzmZs9Je+nUDpt4ecFxGFSp6zBr5XsbDK9rga6mM/WNJS2vRfmut+g+qf8AVrD6dSZnH8mqL9faSZVtsCvSzo16idQbeXwPyi8r7m+3pjtvn9O54Dd/CILT2zj6XPVKoHSCreIy8oJttKmJqHLcQhC1rneJRTa/QJnrmtc1HhtsJvN6hYAixBtnY5gd/TDU2xROrOn3gT5i/vlM2x3XQXA6Le6QtSYagiWdZ4LNamnXVuY6N2H+5kt26PAiZB0HG0dTrult12HYx92kvuMa9MQym4uO24llhtohsjMTS2xXHEN2r/TaFU9uZ+vS7x/cfGNMbQsDpMlytb9In3P5jLDCbboHV2Ttv78xKDleUqOjI5b1LXWxHOORtx8I68xIDvOlX6F/rnznTGNJARFZ5CDHb2dtT5+AmMd9OJ64hMkTCu2i27cv7wmls0nVvAZeece2s3uAd7M9g+MExC3OhPH/AIvNCmCRc9SOz3m8HxhUi2QPDq7ZrmeWOutUCB0YMpKkaEHOXOH27iTZRuljlcrme64kAwTMu+xCJfNyNbahF1c9Qy6SI1qtgVpIUB1cm7sO32ewTtI56TaRqOwQuzsBd0BUKpvkABYHKx4wA4Zhe6Fba3BAh64QuUtcncYHtRr+51htDZZU88p0218pcTVOtCT0cK7aCWeIDIyejXfuTvlgDYZeGV4XicQLZA+EYmmYjXSQlZJWbOR3nie1wPRGkzi0aTKhQZd8lmO++nMHZzhKAvL7k5RYMzsN0FbC+pzvcDhOnE/s593+rW07k56aWhYPX3f3lVTfPJj+emEJWPEX7Oyd686yUX4ZTgmXlIErg6k56CSo4tcfm0gVU6uMeq3Gljn+bRofpjmJ4Shz4VDqL9siOzktYAgdp4x4qHp87QfH4vcXO9yPDrgVm18OiCykk8dfC/hB9hbMpOrPVTeud1RnYAanLU8O6B4rFb+S3NzlxJJOVu2X+zMO9OiFdCp3myPWeqZ6xuIqnJ3DNzd5D1Nf8V5XYjkg2qVFb7wI8xeX28Ioc8DMKxeJ5P101RiOlfW92Yla1EjKxv0Wtbxnpa4g8c4lRkcWdFbtAPvl0eZ7md7WMRCJvMTsDDvzQyH7LH3G4lViOSRHMqA9TLbzF/dGjNb56J0uG5N1/qp/HOl1GaTBJ7TeJy8pYU6aJ0DugtOmfa4659XCPCAD1R2k58JPaaLaopXIdkFat3fnOMYEj1r28I0bpB4W1zvNTlLSu9897ukFeoqAOQGzFgbkHjYjoyMISnrlbsz/ADwjGw4YWcXzuAb8OOvbN+3E1LRQVt12csbDIgeqDwAvZQOrKXFLZdIZhSx75XYekE5q6cOqaLZj9K2Bz0v/AHEqVTY6qlN0Vhulj6ts7Bjum46CQv8ACYXWwQ1Y37JaYzZFKsyu6hiuQN9M75jTKPTAIBx77mUUS4XqykWNwZ3chl85pSFAsBBsVbdOXA5yDHVnz0jGPTOqtn3CJRpu53UUk+Q6yeAnjkeu0ha0lw2EepzRZfrHT5nulrg9jKtmchzrb2f/ALS2SlfoHR+eAnTn0/1y69T8AYTZaJY85uk8OwcJYejNtJMuXOsL5DrkiJnOuZ8ONtvyiVyLEKb9WloWrnTQzkUEk2y4xzALmD4iNElr68YTSGlxa3HX3yBFvrkfDw/PGS7p0uerTtgSsG4HxH5tGGq2g1HDP8mPRr9UR2VbFjf49HVAkZyFux01/wCJnto4sserTsEdj9oEmxzGfEXz6bQDD0mqOqJqxsoPXme4ZnshYuuSWzt9/SsPVp5L1ufkD5ia1zG4XCrSRUXRRbtPEnrJuY585mtQFWwSNpkekZeUBfCuNCD5GWjUyMwZK5B4TKqB3K84Edvznellw6jugVXBoQbC3RbLjADNSNOIbIDMkgDtMXEYJl0N+2D4IkVkDA874G0DR0sKgAuLniek8YkIsOidN4y8hWmDnePLqvA3tlOnTcQM771ri4OQ6eyOFLPQW6B77xZ0qJVTPt4dvCSsmdtOz3dk6dATIePf/aH4IneAFu+dOkVd4KqTZb5Zi1tLa2PbCnWwJHT8bTp0qVE9PQWt2SCrTDC1uqdOgZ8cmjvXZrpw3cidNb6ajSWWHw4WyqoAnTpiST4attElDbr8oxUbK5nTpWXGkb9HgReFFNL6++LOkEtOnbPK15OaZGeWWf8AxFnQGriARmLnXsktx1/noizoEdSpl1DP5yox2NLDTLo6Mv7idOgipqVCT+dZsuSezdxBWbnOPU47q6eJuO7vnTpK00DSBwYs6ZaNogk5/wDMkZZ06APUEg9GQd6+WlvP4Tp0gmqKP+ZW16YVlboYHzESdFSLrdnTp06I/9k=" alt="New York" class="d-block w-100">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+              <br>
+              <br>
+
+              <div class="row m-1">                
+                <div class="col-sm-6 ">
+                  
+                  <fieldset class="border border-primary p-4">
+                    <form action="">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <p></p>
+                          </div>
+                          <div class="col-md-4 text-primary">
+                            <h4>Registration Form</h4>
+                          </div>
+                          <div class="col-md-4">
+                            <p></p>
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p>Email</p>
+                            </div>
+                            <div class="col">
+                                <p>Password</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="" name="email">
+                            </div>
+                            <div class="col">
+                              <input type="password" class="form-control" placeholder="" name="pswd">
+                            </div>
+                          </div>
+                          <div class="row">
+                            <p></p>
+                            </div>
+                          <div class="row">
+                            <div class="col">
+                                <p>Address</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col">
+                              <input type="text" class="form-control" placeholder="1234 Main St." name="address">
+                            </div>
+                            </div>
+                            <div class="row">
+                              <p></p>
+                              </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>Address2</p>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col">
+                                  <input type="text" class="form-control" placeholder="Apartment, studio or floor" name="address">
+                                </div>
+                                </div>
+                                <div class="row">
+                                  <p></p>
+                                  </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p>City</p>
+                                        </div>
+                                        <div class="col">
+                                            <p>State</p>
+                                        </div>
+                                        <div class="col">
+                                            <p>Zip</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" class="form-control" placeholder="" name="city">
+                                            </div>
+                                            <div class="col">
+                                                <input type="dropdown" class="form-control" placeholder="choose" name="state">
+                                            </div>
+                                            <div class="col">
+                                                <input type="number" class="form-control" placeholder="" name="zip">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                          <p></p>
+                                          </div>
+                        <div class="form-check mb-3">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> Check me out
+                          </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                      </form>                   
+                </div>
+              </fieldset>
+              
+                <div class="col-sm-6">
+                  <table class="table table-bordered table-hover">
+                    <thead class="bg-primary text-white">
+                      <tr>
+                        <th>S.No</th>
+                        <th>Reg.No</th>
+                        <th>Name of the Participant</th>
+                        <th>Collaborative activity</th>
+                        <th>Collaborating Agency</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1.</td>
+                        <td>URK20CS2041</td>
+                        <td>David Sanjeet Kumar</td>
+                        <td>Game Development</td>
+                        <td>CADD Center</td>
+                      </tr>      
+                      <tr >
+                        <td>2.</td>
+                        <td>URK20CS2069</td>
+                        <td>JOSHUA JEBAKUMAR L</td>
+                        <td>Product Design and Analysis</td>
+                        <td>CADD Center</td>
+                      </tr>
+                      <tr>
+                        <td>3.</td>
+                        <td>URK20CS1058</td>
+                        <td>PRABHU GOPAL</td>
+                        <td>Product Design and Analysis</td>
+                        <td>CADD Center</td>
+                      </tr>
+                        </tr>
+                        <tr>
+                        <td>4.</td>
+                        <td>URK20CS2045</td>
+                        <td>P Arnold Anand</td>
+                        <td>Web Design</td>
+                        <td>CADD Center</td>
+                        </tr>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>URK20CS2075</td>
+                            <td>RENEESH DENNY</td>
+                            <td>Product Design and Analysis</td>
+                            <td>CADD Center</td>
+                        </tr>
+                        </tr>
+                        <tr>
+                            <td>6.</td>
+                            <td>URK20CS2065</td>
+                            <td>D ALAN DANIELS</td>
+                            <td>Product Design and Analysis</td>
+                            <td>CADD Center</td>
+                        </tr>
+                        </tr>
+                        <tr>
+                            <td>7.</td>
+                            <td>URK20CS2062</td>
+                            <td>JASON DEVADOSS</td>
+                            <td>Product Design and Analysis</td>
+                            <td>CADD Center</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div>
+    </body>
+</html>
