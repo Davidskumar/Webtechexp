@@ -41,7 +41,7 @@ function bmi() {
 function grow() {
     var r = parseInt(document.getElementById("rows").value);
     var c = parseInt(document.getElementById("cols").value);
-    var l = ["media/apple.png", "media/orange.png"];
+    var l = ["https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?202209021349", "https://cliparting.com/wp-content/uploads/2016/11/Orange-clipart-black-and-white-free-images.jpeg","https://cdn1.vectorstock.com/i/thumb-large/60/15/peach-outline-icon-simple-sign-linear-pictograph-vector-40456015.jpg"];
     //document.getElementById("garden").innerHTML = null;
     var garden = document.getElementById("garden");
     
