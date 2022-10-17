@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.trapezoid{
+  border-bottom: 50px solid #555;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 175px;
+
+}
+.circle{
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+  display:inline-block;
+}
+.rectangle{
+  height: 50px;
+  width: 300px;
+  background-color: #555;;
+}
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+  $("#quesc_apply").click(()=>{
+    $(".trapezoid").css("border-bottom",`50px solid ${$("#gcol").val()}`);
+    $(".rectangle").css("background-color",$("#bcol").val());
+    $(".circle").css("width",$("#tsize").val());
+    $(".circle").css("height",$("#tsize").val());
+  });
+});
+</script>
+</head>
+<body>
+<h2>Trapezoid CSS</h2>
+<div class="trapezoid">
+</div>
+<div class="rectangle"></div>
+<div class="circle"></div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="circle"></div>
+<br>
+<br>
+<div style="padding: 20px;">
+Tint color: <input id="gcol" type="color">
+Body color: <input id="bcol" type="color">
+Tire Size: <input id="tsize" type="number">
+<button id="quesc_apply">Apply</button>
+</div>
+<div>
+</body>
+</html>

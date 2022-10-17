@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(document).keydown(function(event){
+                var car = $('#car')
+                var arrow = {left: 37, up: 38, right: 39, down: 40 };
+                switch(event.which){
+                    case arrow.right: car.css('transform','rotate(360deg)');
+                                      car.animate({left:'+=5px'},1); 
+                                      break;
+                    case arrow.down:  car.css('transform','rotate(90deg)');
+                                      car.animate({top:'+=5px'},1);
+                                      break;
+                    case arrow.up:    car.css('transform','rotate(270deg)');
+                                      car.animate({top:'-=5px'},1);
+                                      break;
+                    case arrow.left:  car.css('transform','rotateY(180deg)');
+                                      car.animate({left:'-=5px'},1);
+                                      break;
+                }
+            })
+             
+        })
+    </script>
+    <style>
+        body {
+            background-image: url('https://th.bing.com/th/id/R.5c398439ab46ce64b84078d655d809f7?rik=UcCN1%2fAL5QZO4g&riu=http%3a%2f%2fimg.freepik.com%2ffree-vector%2fvillage-in-flat-design-with-a-wavy-road_23-2147532450.jpg%3fsize%3d338%26ext%3djpg&ehk=6QcOljZ15PT2wVeBcfyZgbywHiU4p2CiezAcvSvSeGg%3d&risl=&pid=ImgRaw&r=0');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        /*{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            
+        }
+        .r1 {
+              position: fixed;
+              z-index: 0;
+              top:0px;
+              width: 100px;
+              height: 800px;
+              left: 40%;
+              background-color: black;
+        }
+        .r2{
+              position: fixed;
+              top:0px;
+              z-index: 1;
+              width: 100%;
+              height: 100px;
+              background-color: black;
+        }
+        .r3 {
+              position: fixed;
+              z-index: 0;
+              top:0px;
+              width: 100px;
+              height: 800px;
+              left: 20%;
+              background-color: black;
+        }
+        .r4{
+              position: fixed;
+              top:500px;
+              z-index: 5;
+              width: 100%;
+              height: 100px;
+              background-color: black;
+        }*/
+    </style>
+</head>
+<body>
+    <a href="Exp7b.html">Next question!</a>
+<div id="car" style="position:absolute;z-index:3;left:5px; top:20px;width:80px;height:50px;">
+<img src="goldencar.png" alt="" width="120" height="90">
+</div>
+<br>
+    <!--<div class="r1"></div>
+    <div class="r2"></div>
+    <div class="r3"></div>
+    <div class="r4"></div>-->
+</body>
+</html>
+
